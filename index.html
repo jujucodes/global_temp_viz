@@ -24,7 +24,7 @@
   
       useEffect(() => {
         // load data
-        fetch('../globaltemp2.json').then(res => res.json())
+        fetch('globaltemp2.json').then(res => res.json())
         .then(setTempData);
       }, []);
   
